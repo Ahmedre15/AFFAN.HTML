@@ -1,0 +1,27 @@
+div{
+    width: 30%;
+    position: -webkit-sticky;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+img{
+    width: 100%;
+    background-color: rgba(80, 41, 18, 0.993);
+    border-radius: 10px;
+}
+h1{
+    background-color: rgba(80, 41, 18, 0.993);
+    text-align: center;
+    border-radius: 10px;
+}
+div:hover{
+    background-color:white;
+    margin: 10px;
+}
+img:hover{
+    background-color:white;
+    margin: 10px;
+}
+body{
+    background-image: url(https://doubleverify.com/wp-content/themes/doubleVerify/assets/images/bg-shape-top-left.svg);
+}

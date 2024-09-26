@@ -1,0 +1,10 @@
+Cascading Style Sheets
+Two Important Things
+1)Key 
+2)Values
+There are three types
+1)In-Line CSS(only for single line)
+2)Internal CSS(only for single page)
+3)Externel CSS(for all pages)standard
+new file Style.CSS
+link with all files

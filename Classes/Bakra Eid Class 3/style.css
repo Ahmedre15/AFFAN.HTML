@@ -1,0 +1,52 @@
+/* .black{
+ background-color: black;
+ height: 90px;
+width: 90px;
+display: inline-block;
+}
+.white{
+    background-color: white;
+    height: 90px;
+   width: 90px;
+   display: inline-block;
+   }
+   body{
+    background-color: rgb(255, 255, 97);
+   }
+   /* img{
+    position: absolute;
+    top: 10px;
+    left: 102px;
+   }
+    */
+    /* img{
+        position: relative;
+        top: -95px;
+        right: -375px;
+    } */ 
+    li{
+        display: inline-block;
+        width: 100px;
+        color: brown;
+       }
+       ul{
+        background-color: aquamarine;
+        position: sticky;
+        top: 0;
+       }
+       #Affan{
+        position: fixed;
+        bottom: 30px;
+        right: 40px;
+       }
+       h2{
+        top: 100px;
+        left: 250px;
+       }
+       body{
+        background-color: rgb(255, 255, 97);
+       }
+       dd{
+       background-color: blueviolet;
+       color: azure;
+       }

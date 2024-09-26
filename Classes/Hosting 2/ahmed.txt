@@ -1,0 +1,117 @@
+download node js
+cmd==>
+1)node -v (version of node js if installed)  
+2)npm i -g firebase-tools 
+3)firebase login(for Login)
+4)firebase init
+
+
+
+Microsoft Windows [Version 10.0.19042.1826]
+(c) Microsoft Corporation. All rights reserved.
+
+F:\Web and App Crash Course\Classes\Hosting 2>node -v
+v16.17.0
+
+F:\Web and App Crash Course\Classes\Hosting 2>npm i -g firebase-tools
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+
+added 705 packages, and audited 706 packages in 3m
+
+39 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice
+npm notice New minor version of npm available! 8.15.0 -> 8.18.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.18.0
+npm notice Run npm install -g npm@8.18.0 to update!
+npm notice
+
+F:\Web and App Crash Course\Classes\Hosting 2>firebase login
+i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+? Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? No
+
+Visit this URL on this device to log in:
+https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=187910123&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+
+Waiting for authentication...
+
++  Success! Logged in as historicseriesedits@gmail.com
+
+F:\Web and App Crash Course\Classes\Hosting 2>firebaase int
+'firebaase' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\Web and App Crash Course\Classes\Hosting 2>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\Web and App Crash Course\Classes\Hosting 2
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm you
+r choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: webandappcrash-c1769 (Webandappcrash)
+i  Using project webandappcrash-c1769 (Webandappcrash)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? public
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
++  Wrote public/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+i  Writing gitignore file to .gitignore...
+
++  Firebase initialization complete!
+
+F:\Web and App Crash Course\Classes\Hosting 2>firebase deploy
+
+=== Deploying to 'webandappcrash-c1769'...
+
+i  deploying hosting
+i  hosting[webandappcrash-c1769]: beginning deploy...
+i  hosting[webandappcrash-c1769]: found 2 files in public
++  hosting[webandappcrash-c1769]: file upload complete
+i  hosting[webandappcrash-c1769]: finalizing version...
++  hosting[webandappcrash-c1769]: version finalized
+i  hosting[webandappcrash-c1769]: releasing new version...
++  hosting[webandappcrash-c1769]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/webandappcrash-c1769/overview
+Hosting URL: https://webandappcrash-c1769.web.app
+
+F:\Web and App Crash Course\Classes\Hosting 2>node -v
+
+

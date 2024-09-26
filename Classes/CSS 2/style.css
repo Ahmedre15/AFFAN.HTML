@@ -1,0 +1,38 @@
+table{
+    border: 2px solid brown ;
+}
+td{
+    border: 5px solid springgreen;
+}
+th{
+    border: 5px dashed green;
+}
+#Affan{
+    background-color: wheat;
+}
+div{
+    background-color: bisque;
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 30%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border: rgba(255, 0, 0, 0.76) solid;
+    box-shadow: -15px -15px 15px purple;
+    text-shadow: 15px 15px 15px red;
+}
+button{
+    color: yellow;
+    width: 50%;
+    height: 70px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: -15px -15px 15px aqua;
+}
+button:hover{
+    color: brown;
+    background-color: chocolate;
+    box-shadow: 15px 15px 15px green;
+}

@@ -1,0 +1,30 @@
+.Affan{
+    color: white ;
+    background-color: aqua !important;
+}
+.accordion-item{
+    background-color: lightblue !important;
+}
+#card-text{color: black;
+    background-color: blueviolet;
+}
+#MEHT{
+    color: yellow;
+}
+#CIHAN{
+    color: red;
+}
+.carousel-item{
+    width: 60%;
+    height: 500px;
+}
+#TAB{
+    color: red;
+    text-size-adjust: 100PX;
+}
+#Yar{
+    color: brown;
+}
+a{
+    color: green !important;
+}
